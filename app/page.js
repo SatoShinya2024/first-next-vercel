@@ -2,5 +2,10 @@ import Image from 'next/image'
 import styles from './page.module.css'
 
 export default function Home() {
-  return <h1>Next.jsのVercelへのデプロイ完了！</h1>
+  return (
+  <div>
+    <h1>Next.jsのVercelへのデプロイ完了！</h1>
+    <p>変更テスト</p>
+    </div>
+    )
 }
